@@ -7,21 +7,22 @@
 </head>
 
 <body>
-    <h1>Percentage calculator</h1>
-    <form>
+    <h1 id ="change">Percentage calculator</h1>
+    <form onsubmit="getresult(); return false;">
         <label for="totalMarks">Total Marks</label>
         <input type="text" id="tm1" placeholder="Enter total marks" name="totalMarks" required>
+        <br>
 
         <label for="obtainedMarks">Obtained Marks</label>
         <input type="text" id="obt1" placeholder="Enter obtained marks" name="obtainedMarks" required>
-
         <button type="submit" onclick="getPerc()">Click Now</button>
+        
 
-        <br><br>
+        
     </form>
         
 
-<script src="./2.js"></script>
+<script src="./index2.js"></script>
 </body>
 
 </html>
